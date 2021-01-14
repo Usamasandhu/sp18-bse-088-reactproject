@@ -15,9 +15,9 @@ const TopMenu = () => {
     const classes = useStyles();
      return ( 
     
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="blue" variant="blue">
     <Nav className="mx-auto">
-      <Nav.Link href="/" style={{color:"white"}}>Home</Nav.Link>
+      <Nav.Link href="/" style={{color:"white"}}>Shpatu</Nav.Link>
       <div className="form-group">
         <input type="search" id="search" className="form-control" aria-describedby="SearchProduct" placeholder="Search Product Here..... "></input>
       </div>
