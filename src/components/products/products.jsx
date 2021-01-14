@@ -33,7 +33,6 @@ const Products = (props) => {
         props.history.push("/products/new");
     };
     return ( <div>
-        <h1 style={{textAlign : "center"}}>ADMIN SIDE</h1>
         <select value={perPage} onChange={e=>setPerPage(e.target.value)} style={{width:"100px", height:"30px", marginLeft:"600px", marginBottom:"30px"}}>
             <option value="2">Two</option>
             <option value="10">Nine</option>

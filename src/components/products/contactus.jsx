@@ -22,7 +22,7 @@ const ContactUs = () => {
         </div>
         <div className="form-group form-check">
         <input type="checkbox" className="form-check-input" id="check"></input>
-        <label className="form-check-label" for="check">Your'e not a Robot</label>
+        <label className="form-check-label" for="check">You are not a robot</label>
         </div>
         <div className="text-center">
         <button className="btn btn-lg btn-color cont-btn" style={{color:"white", backgroundColor:"black"}}>Submit</button>
