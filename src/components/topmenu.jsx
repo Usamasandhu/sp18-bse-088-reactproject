@@ -21,10 +21,10 @@ const TopMenu = () => {
       <div className="form-group">
         <input type="search" id="search" className="form-control" aria-describedby="SearchProduct" placeholder="Search Product Here..... "></input>
       </div>
-      <Nav.Link href="/contact-us" style={{color:"white"}}>Contact Us</Nav.Link>
+      <Nav.Link href="/contact-us" style={{marginLeft:"30px",color:"white"}}>Contact Us</Nav.Link>
       {!userService.isLoggedin()? <>
-        <Nav.Link href="/login" style={{color:"white"}}>Login</Nav.Link>
-        <Nav.Link href="/register" style={{color:"white"}}>Register</Nav.Link>   
+        <Nav.Link href="/login" style={{marginLeft:"30px",color:"white"}}>Login</Nav.Link>
+        <Nav.Link href="/register" style={{marginLeft:"30px",color:"white"}}>Register</Nav.Link>   
              </>:<Button variant="contained"  onClick={(e)=>{
                  userService.logout();
                  window.location.reload();
