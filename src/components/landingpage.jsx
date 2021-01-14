@@ -77,9 +77,7 @@ const LandingPage = () => {
         <div>
         <Grid contained>
             <Grid contained style={{backgroundColor:"whitesmoke"}}>
-                <h1 style={{textAlign:"center",color:"black",marginTop:"30px"}}><strong>Seller</strong></h1>
-                <hr/>
-                <Navbar bg="light" variant="dark">
+            <Navbar bg="light" variant="dark">
     <Nav className="mx-auto" >
       <Nav.Link href="/products" style={{color:"black"}}>T-Shirts</Nav.Link>
       <Nav.Link href="/products" style={{color:"black"}}>Hoodies</Nav.Link>
