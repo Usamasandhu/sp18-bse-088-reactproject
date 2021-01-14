@@ -19,7 +19,7 @@ const TopMenu = () => {
     <Nav className="mx-auto">
       <Nav.Link href="/" style={{color:"white"}}>Home</Nav.Link>
       <div className="form-group">
-        <input type="email" id="email" className="form-control" aria-describedby="emailHelp" placeholder="Email"></input>
+        <input type="search" id="search" className="form-control" aria-describedby="SearchProduct" placeholder="Search Product Here..... "></input>
       </div>
       <Nav.Link href="/contact-us" style={{color:"white"}}>Contact Us</Nav.Link>
       {!userService.isLoggedin()? <>
