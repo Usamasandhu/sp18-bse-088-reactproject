@@ -18,20 +18,19 @@ const LandingPage = () => {
         <div>
         <Grid contained>
             <Grid contained style={{backgroundColor:"whitesmoke"}}>
-            <div id="home">
+            <div>
             <h1 class = "logo" >
               <img src="https://scontent.flhe6-1.fna.fbcdn.net/v/t1.0-9/95332357_116001500095523_7579334070060974080_n.jpg?_nc_cat=101&ccb=2&_nc_sid=85a577&_nc_ohc=l0vHuTcevXgAX9MC9s5&_nc_ht=scontent.flhe6-1.fna&oh=802255794047630e27d28c40267b3897&oe=602490E4"  alt="Shpatu"/>
             </h1>
             <hr>
             <h1>S H P A T U</h1>
-            <hr>
-            <h1 class = "logo" >
+            </hr>
+            <h1 class = "log" >
             <img src="https://scontent.flhe6-1.fna.fbcdn.net/v/t1.0-9/94886131_116614573367549_5070463923791069184_n.jpg?_nc_cat=102&ccb=2&_nc_sid=dd9801&_nc_ohc=TMe0xUmZQNIAX9oJVL6&_nc_ht=scontent.flhe6-1.fna&oh=df55cabc4d134f65d586d787b7cf97ba&oe=60274E44" alt="" height="100%" width="100%"/>            
             </h1>
             </div>
             </Grid>
         </Grid>
-        </div>
         <Grid contained style={{marginTop:"10px"}}>
         <Grid contained>
         <CardDeck className="card">
@@ -144,6 +143,7 @@ const LandingPage = () => {
     </CardDeck>
         </Grid>
         </Grid>
+      </div>
      );
 };
 
