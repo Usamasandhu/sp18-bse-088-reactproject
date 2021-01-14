@@ -17,7 +17,7 @@ const TopMenu = () => {
     
     <Navbar bg="dark" variant="dark">
     <Nav className="mx-auto">
-      <Nav.Link href="/"  style={{textAlign:"left",marginRight:"30px",color:"white"}}><strong>SHPATU</strong></Nav.Link>
+      <Nav.Link href="/"  style={{textAlign:"left",marginRight:"80px",color:"white"}}><strong>SHPATU</strong></Nav.Link>
       <div className="form-group">
         <input type="search" id="search" className="form-control" aria-describedby="SearchProduct" placeholder="Search Product Here..... "></input>
       </div>
