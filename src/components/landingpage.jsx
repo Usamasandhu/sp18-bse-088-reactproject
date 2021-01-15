@@ -36,12 +36,53 @@ const LandingPage = () => {
         </Grid>
         <Grid contained style={{marginTop:"10px"}}>
         <Grid contained>
+          
         <CardDeck className="card">
+        <div>
+            <h1 class="text-center">Categories</h1>
+        <div>
+            <h2 class="text-left">Kitchen</h2>
             <CardColumns>
         <Card style={{width:"50%"}}>
             <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
             <Card.Body>
-            <h2>Shirts</h2>  
+            <h2>Kitchen</h2>  
+            <p>
+                80$
+            </p>
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+        </Card>
+        <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/DENIM-DARK-BLUE-11_1-500x667.jpg" />
+            <Card.Body>
+            <h2>Jeans</h2>
+            <p>
+                100$
+            </p>
+            
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+        <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/JT-004_1-500x667.jpg" />
+            <Card.Body>
+            <h2>Jogging Trousers</h2>
+            <p>
+                56$
+            </p>
+            
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+        </Card>
+        </CardColumns>
+        </div>
+        </div>
+            <CardColumns>
+        <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
+            <Card.Body>
+            <h2>Kitchen</h2>  
             <p>
                 80$
             </p>
