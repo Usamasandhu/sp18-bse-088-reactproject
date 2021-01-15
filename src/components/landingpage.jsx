@@ -41,9 +41,9 @@ const LandingPage = () => {
         <div>
             <h1 class="text-center">Categories</h1>
         <div>
-            <h2 class="text-left">Kitchen</h2>
+            <h2>Kitchen</h2>
             <CardColumns>
-        <Card style={{width:"50%"}}>
+            <Card style={{width:"50%"}}>
             <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
             <Card.Body>
             <h2>Kitchen</h2>  
@@ -52,8 +52,8 @@ const LandingPage = () => {
             </p>
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
-        </Card>
-        <Card style={{width:"50%"}}>
+            </Card>
+            <Card style={{width:"50%"}}>
             <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/DENIM-DARK-BLUE-11_1-500x667.jpg" />
             <Card.Body>
             <h2>Jeans</h2>
@@ -64,7 +64,7 @@ const LandingPage = () => {
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
-        <Card style={{width:"50%"}}>
+            <Card style={{width:"50%"}}>
             <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/JT-004_1-500x667.jpg" />
             <Card.Body>
             <h2>Jogging Trousers</h2>
@@ -74,116 +74,10 @@ const LandingPage = () => {
             
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
-        </Card>
-        </CardColumns>
-        </div>
-        </div>
-            <CardColumns>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
-            <Card.Body>
-            <h2>Kitchen</h2>  
-            <p>
-                80$
-            </p>
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/DENIM-DARK-BLUE-11_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Jeans</h2>
-            <p>
-                100$
-            </p>
-            
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
             </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/JT-004_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Jogging Trousers</h2>
-            <p>
-                56$
-            </p>
-            
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        </CardColumns>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/10/KURTA-166_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Kurta</h2>
-            <p>
-                70$
-            </p>    
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/SK-285_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Eastern Wear</h2>
-            <p>
-                80$
-            </p>
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-            </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2019/01/tie-382-500x667.jpg" />
-            <Card.Body>
-            <h2>Tie</h2>
-            <p>
-                30$
-            </p>    
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/WTR-199_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Dress Trouser</h2>
-            <p>
-                70$
-            </p>  
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        <CardColumns>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/WTR-199_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Shirts</h2>
-            <p>
-                70$
-            </p>
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/WTR-199_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Shirts</h2>
-            <p>
-                70$
-            </p>
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/WTR-199_1-500x667.jpg" />
-            <Card.Body>
-            <h2>Shirts</h2>
-            <p>
-                70$
-            </p>
-            <Button variant="info" className="cardButton">Add to Cart</Button>
-            </Card.Body>
-        </Card>
-        </CardColumns>
+            </CardColumns>
+            </div>
+            </div>
     </CardDeck>
         </Grid>
         </Grid>
