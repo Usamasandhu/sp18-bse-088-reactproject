@@ -7,6 +7,7 @@ import ReactStars from "react-rating-stars-component";
 import $ from "jquery"
 import "../../index.css"
 const SingleProduct = (props) => {
+  const { product, onDelete, history } = props;
     console.log(props);
     return ( <Grid item xs={4}>
         <img src={product.Link} alt="Product" width="50%"></img>
