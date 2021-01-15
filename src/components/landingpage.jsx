@@ -44,6 +44,41 @@ const LandingPage = () => {
             <h2>Kitchen</h2>
             <CardColumns>
             <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/Ceramic-Oval-Divided-Plates-Snack-Plates.jpg?v=1563274806"/>
+            <Card.Body>
+            <h3>Ceramic Oval Divided Plates, Snack Plates</h3>  
+            <p>
+              Rs.999
+            </p>
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+            <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/item_xxl_11555176_16439529.jpg?v=1568476894" />
+            <Card.Body>
+            <h3>Electric Kettle 2L</h3>
+            <p>
+              Rs.1,850
+            </p>
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+            <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/WhatsApp_Image_2020-01-15_at_2.20.26_PM.jpg?v=1579341656" />
+            <Card.Body>
+            <h3>5 in 1 Printed Bowl Set</h3>
+            <p>
+              Rs.1,799
+            </p>            
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+            </CardColumns>
+            </div>
+            <div>
+            <h2>Cosmetics</h2>
+            <CardColumns>
+            <Card style={{width:"50%"}}>
             <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
             <Card.Body>
             <h2>Kitchen</h2>  
@@ -59,8 +94,7 @@ const LandingPage = () => {
             <h2>Jeans</h2>
             <p>
                 100$
-            </p>
-            
+            </p>            
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
@@ -71,13 +105,47 @@ const LandingPage = () => {
             <p>
                 56$
             </p>
-            
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
             </CardColumns>
             </div>
+            <div>
+            <h2>Sports</h2>
+            <CardColumns>
+            <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
+            <Card.Body>
+            <h2>Kitchen</h2>  
+            <p>
+                80$
+            </p>
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+            <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/DENIM-DARK-BLUE-11_1-500x667.jpg" />
+            <Card.Body>
+            <h2>Jeans</h2>
+            <p>
+                100$
+            </p>            
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+            <Card style={{width:"50%"}}>
+            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/JT-004_1-500x667.jpg" />
+            <Card.Body>
+            <h2>Jogging Trousers</h2>
+            <p>
+                56$
+            </p>
+            <Button variant="info" className="cardButton">Add to Cart</Button>
+            </Card.Body>
+            </Card>
+            </CardColumns>
             </div>
+          </div>
     </CardDeck>
         </Grid>
         </Grid>
