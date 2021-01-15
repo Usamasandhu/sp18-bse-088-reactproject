@@ -3,7 +3,6 @@ import { Button, Grid } from '@material-ui/core';
 import ProductService from '../../services/Product';
 import { withRouter } from 'react-router-dom';
 import userService from '../../services/UserService';
-import ReactStars from "react-rating-stars-component";
 import $ from "jquery"
 import "../../index.css"
 const SingleProduct = (props) => {
