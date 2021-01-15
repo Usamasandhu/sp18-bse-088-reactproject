@@ -79,31 +79,31 @@ const LandingPage = () => {
             <h2>Cosmetics</h2>
             <CardColumns>
             <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/81NsfZslPFL._SX425_460x.jpg?v=1564145033"/>
             <Card.Body>
-            <h2>Kitchen</h2>  
+            <h3>Acrylic Makeup Organizer</h3>  
             <p>
-                80$
+              Rs.2,150
             </p>
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
             <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/DENIM-DARK-BLUE-11_1-500x667.jpg" />
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/naked_12_stin_box_brush_set_48a04818-2a73-42aa-8b3a-4a3838e28a4f.jpg?v=1567147925" />
             <Card.Body>
-            <h2>Jeans</h2>
+            <h3>12'S Tin Box</h3>
             <p>
-                100$
+              Rs.999
             </p>            
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
             <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/JT-004_1-500x667.jpg" />
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/32_1024x1024_2x_e06c1ad3-a933-4187-acea-9fa64907d542_460x.png?v=1597306505" />
             <Card.Body>
-            <h2>Jogging Trousers</h2>
+            <h3>Hair Straightening Brush</h3>
             <p>
-                56$
+              Rs.1,699                
             </p>
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
@@ -114,31 +114,31 @@ const LandingPage = () => {
             <h2>Sports</h2>
             <CardColumns>
             <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://asset.pk/wp-content/uploads/2018/08/bc11e9023cce03648772cd517af2dcbb.jpeg"/>
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/a3c115470ac65257f124f91bd4ef195c_ec452da6-b9b1-44cd-ad78-4c0e4abe22a3_460x.jpg?v=1562421700"/>
             <Card.Body>
-            <h2>Kitchen</h2>  
+            <h3>Back Pain Need Help Belt</h3>  
             <p>
-                80$
+              Rs.1,799
             </p>
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
             <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/11/DENIM-DARK-BLUE-11_1-500x667.jpg" />
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/IMG-20190925-WA0030_300x.jpg?v=1569418670" />
             <Card.Body>
-            <h2>Jeans</h2>
+            <h3>Weight Scale</h3>
             <p>
-                100$
+              Rs.1,350
             </p>            
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
             </Card>
             <Card style={{width:"50%"}}>
-            <Card.Img variant="top" src="https://www.shahzebsaeed.com/wp-content/uploads/2020/12/JT-004_1-500x667.jpg" />
+            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0035/0889/5790/products/IMG-20190925-WA0027.jpg?v=1569416153" />
             <Card.Body>
-            <h2>Jogging Trousers</h2>
+            <h3>Crystal Glass Chess</h3>
             <p>
-                56$
+              Rs.2,499
             </p>
             <Button variant="info" className="cardButton">Add to Cart</Button>
             </Card.Body>
